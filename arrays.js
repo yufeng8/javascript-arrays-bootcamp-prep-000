@@ -4,8 +4,9 @@ function addElementToBeginningOfArray(A, N) {
   return [N, ...A]
 }
 
-/*function destructivelyAddElementToBeginningOfArray(A,N) {
-  return  A.unshift(N)
+function destructivelyAddElementToBeginningOfArray(A,N) {
+   A.unshift(N)
+   return A
 }
 
 function addElementToEndOfArray(A, N) {
