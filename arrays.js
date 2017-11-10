@@ -12,4 +12,6 @@ function addElementToEndOfArray(A, N) {
   return A.[...A, N]
 }
 
-function 
+function destructivelyAddElementToEndOfArray(A, N) {
+  return A.push(N)
+}
