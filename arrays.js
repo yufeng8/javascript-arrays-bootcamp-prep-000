@@ -18,12 +18,13 @@ function destructivelyAddElementToEndOfArray(A, N) {
   return A
 }
 
-/*function accessElementInArray(A, n) {
+function accessElementInArray(A, n) {
   return A[n]
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(A) {
-  return A.shift()
+  A.shift()
+  return A
 }
 
 function removeElementFromBeginningOfArray(A) {
