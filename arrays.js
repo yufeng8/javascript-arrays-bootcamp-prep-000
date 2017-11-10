@@ -31,10 +31,12 @@ function removeElementFromBeginningOfArray(A) {
    return A.slice(1)
 }
 
-/*function destructivelyRemoveElementFromEndOfArray(A) {
-  return A.pop()
+function destructivelyRemoveElementFromEndOfArray(A) {
+  A.pop()
+  return A
 }
+  
 
 function removeElementFromEndOfArray(A) {
   return A.slice(0, A.length()-1)
-}*/
+}
